@@ -33,6 +33,6 @@ The analysis is based on the [Amazon Sales Dataset](https://www.kaggle.com/datas
 ## 📂 Repository Structure
 ```text
 ├── notebooks/          # Jupyter notebooks with step-by-step analysis
-│   └── 01_EDA_Statistical_Tests.ipynb
+│   └── 01_EDA_Amazon_Sales_Analysis.ipynb
 ├── README.md           # Project executive summary
 └── .gitignore          # Prevents uploading unnecessary local files
