@@ -251,3 +251,7 @@ mlxtend 0.23.4
 │   └── amazon_sales_dataset.csv   
 ```
 
+## 📜 License
+
+This project is licensed under the MIT License.  
+This repository is shared for academic and portfolio purposes.
