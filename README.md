@@ -21,9 +21,9 @@ Everything here is designed to help you understand it better — not replace it.
 
 ## 📌 Project Overview
 
-Online marketplaces rely heavily on visible signals — discounts, ratings, and review counts — to influence purchasing decisions.
+Do higher discounts and more reviews actually lead to more sales — or are these just common myth in e-commerce?
 
-But do these signals actually drive sales?
+This project takes a data-driven approach to evaluate whether **pricing signals** (discounts and ratings) and **social proof** (review count) are meaningfully associated with purchasing behavior. Using a dataset of 50,000 Amazon transactions, the analysis applies data mining techniques to test whether these widely used signals truly influence how much customers buy.
 
 This project tests that assumption using data.
 
@@ -34,7 +34,7 @@ Using a dataset of **50,000 Amazon transactions**, the analysis evaluates whethe
 
 are meaningfully associated with **quantity sold**.
 
-⚠️ Instead of assuming these signals work, this project **measures their actual impact**.
+⚠️ Instead of assuming these assumptions work, this project **measures their actual impact**.
 
 👉 The full analytical story, including visuals and interpretations, is presented in:  
 **`main_notebook.ipynb`**
