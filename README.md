@@ -45,15 +45,13 @@ are meaningfully associated with **quantity sold**.
 
 This project focuses on two tightly connected questions:
 
-### 🔹 RQ1 — Pricing Signals
-**Do Discounts & Ratings Drive Sales?**
+### 🔹 RQ1 — **Pricing Signals: Do Discounts & Ratings Drive Sales?**
 
 👉 Explored using **association rule mining**
 
 ---
 
-### 🔹 RQ2 — Social Proof
-**Do products with more reviews sell more?**
+### 🔹 RQ2 — **Social Proof: Do products with more reviews sell more?**
 
 👉 Explored using **cross-tabulation and probability analysis**
 
