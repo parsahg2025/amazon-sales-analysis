@@ -246,10 +246,23 @@ mlxtend 0.23.4
 ├── checkpoints/                   # Checkpoints folder
 │   ├── checkpoint_1.ipynb         # Checkpoints
 │   ├── checkpoint_2.ipynb         # Checkpoints
-│   └── preprocessing.ipynb        # Checkpoints
+│   └── preprocessing.ipynb        # preprocessing
 ├── data/                          # Dataset folder
 │   ├── instruction.md             # Dataset info
 │   └── amazon_sales_dataset.csv   # dataset csv file
 ```
 
+## 📂 Repository Structure
+```
+├── main_notebook.ipynb        
+├── README.md                 
+├── requirements.txt          
+├── checkpoints/                
+│   ├── checkpoint_1.ipynb        
+│   ├── checkpoint_2.ipynb         
+│   └── preprocessing.ipynb        
+├── data/                          
+│   ├── instruction.md             
+│   └── amazon_sales_dataset.csv   
+```
 
