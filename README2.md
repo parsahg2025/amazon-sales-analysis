@@ -188,8 +188,8 @@ The full environment is provided in:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone <your-repository-url>
-cd <repository-name>
+git clone <[your-repository-url](https://github.com/parsahg2025/amazon-sales-analysis)>
+cd <amazon-sales-analysis>
 ```
 
 ### Step 2: Install Requirements
