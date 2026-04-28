@@ -1,0 +1,55 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Environment / Virtual Env
+# =========================
+.env
+.venv
+venv/
+env/
+
+# =========================
+# OS files (Mac / Windows)
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+
+# =========================
+# IDE files
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Kaggle / credentials (IMPORTANT)
+# =========================
+kaggle.json
+
+# =========================
+# Large data files (optional)
+# =========================
+# Uncomment if needed
+# data/*.csv
+# data/*.xlsx
