@@ -21,7 +21,7 @@ Everything here is designed to help you understand it better — not replace it.
 
 ## 📌 Project Overview
 
-Do higher discounts and more reviews actually lead to more sales — or are these just common myth in e-commerce?
+❓ Do higher discounts and more reviews actually lead to more sales — or are these just common myth in e-commerce? ❓
 
 This project takes a data-driven approach to evaluate whether **pricing signals** (discounts and ratings) and **social proof** (review count) are meaningfully associated with purchasing behavior. Using a dataset of 50,000 Amazon transactions, the analysis applies data mining techniques to test whether these widely used signals truly influence how much customers buy.
 
