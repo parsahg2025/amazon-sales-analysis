@@ -234,46 +234,22 @@ scipy 1.16.3
 
 mlxtend 0.23.4
 
+📌 Full list in: requirements.txt
+
+
 
 ## 📂 Repository Structure
 .
-├── main_notebook.ipynb
+├── main_notebook.ipynb            # Main notebook
+├── README.md                      # This file
+├── requirements.txt               # Python dependencies
+├── checkpoints/                   # Checkpoints folder
+│   ├── checkpoint_1.ipynb         # Checkpoints
+│   ├── checkpoint_2.ipynb         # Checkpoints
+│   └── preprocessing.ipynb        # Checkpoints
+├── data/                          # Dataset folder
+│   ├── instruction.md             # Dataset info
+│   └── amazon_sales_dataset.csv   # dataset csv file
 
-├── README.md
 
-├── requirements.txt
-
-├── checkpoints/
-
-│   ├── checkpoint_1.ipynb
-
-│   ├── checkpoint_2.ipynb
-
-│   └── preprocessing.ipynb
-
-├── data/
-
-│   ├── instruction.md
-
-│   └── amazon_sales_dataset.csv
-
-├── assets/
-
-│   └── Figures
-
-.
-├── main_notebook.ipynb
-├── README.md
-├── requirements.txt
-├── checkpoints/
-│   ├── checkpoint_1.ipynb
-│   ├── checkpoint_2.ipynb
-│   └── preprocessing.ipynb
-├── data/
-│   ├── instruction.md
-│   └── amazon_sales_dataset.csv
-├── assets/
-│   └── Figures
-
-📌 Full list in: requirements.txt
 
