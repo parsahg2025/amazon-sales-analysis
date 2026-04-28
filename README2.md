@@ -177,35 +177,44 @@ Customer decisions likely depend on:
 
 ## ▶️ How to Reproduce
 
-Built in **Google Colab**  
-Python version: **3.12.13**
+This project was built in **Google Colab** using:
 
----
+`Python 3.12.13`
 
-## Step 1 — Clone
+The full environment is provided in:
 
+`requirements.txt`
 
-git clone <https://github.com/parsahg2025/amazon-sales-analysis>
+### Step 1: Clone the Repository
 
-cd <amazon-sales-analysis>
+```bash
+git clone <your-repository-url>
+cd <repository-name>
+```
 
+### Step 2: Install Requirements
 
-### Step 2 — Install Requirements
-
+```bash
 pip install -r requirements.txt
+```
 
+### Step 3: Open the Main Notebook
 
+Open:
 
+`main_notebook.ipynb`
 
+This is the curated final notebook and should be run first.
 
+### Step 4: Run the Notebook
 
-### Step 3 — Run the Project
+Run all cells in order.
 
-Open and run:
+The dataset is included locally in:
 
-main_notebook.ipynb
+`data/amazon_sales_dataset.csv`
 
-📌 This notebook reproduces the entire analysis.
+The notebook may also download the dataset from Kaggle if needed.
 
 ---
 
