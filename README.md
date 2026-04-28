@@ -41,12 +41,12 @@ are meaningfully associated with **quantity sold**.
 
 ---
 
-## ❓ Research Questions
+## ❓ The Questions We’re Trying to Answer
 
 This project focuses on two tightly connected questions:
 
 ### 🔹 RQ1 — Pricing Signals
-**Do higher discounts and higher ratings lead to higher sales?**
+**Do Discounts & Ratings Drive Sales?**
 
 👉 Explored using **association rule mining**
 
