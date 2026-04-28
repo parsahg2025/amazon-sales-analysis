@@ -2,7 +2,8 @@
 ## A Data Mining Study of Pricing Signals and Social Proof in Amazon Sales
 
 🎥 **Project Video (2 min):** https://youtu.be/85tgdwctryA  
-👉 **Start here:** [`main_notebook.ipynb`](main_notebook.ipynb)
+
+👉 **Start here:** 
 
 ---
 
@@ -11,7 +12,7 @@
 If you're new to this project, follow this simple path:
 
 1️⃣ Watch the short project video  
-2️⃣ Open 👉 **`main_notebook.ipynb`**  
+2️⃣ Open 👉 **`[`main_notebook.ipynb`](main_notebook.ipynb)`**  
 3️⃣ Use this README to understand the context  
 
 📌 The notebook is the **main deliverable**.  
