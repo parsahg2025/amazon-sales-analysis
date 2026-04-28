@@ -1,17 +1,16 @@
 # 🚀 What Drives Online Purchases?
 ## A Data Mining Study of Pricing Signals and Social Proof in Amazon Sales
 
-🎥 **Project Video (2 min):** https://youtu.be/85tgdwctryA  
 
-👉 **Start here:** 
 
----
+
+
 
 ## 🧭 Where Should You Start?
 
 If you're new to this project, follow this simple path:
 
-1️⃣ Watch the short project video  
+1️⃣ Watch this short project video (2 min): 🎥 https://youtu.be/85tgdwctryA    
 2️⃣ Use this README to understand the context  
 3️⃣ Then open 👉 [`main_notebook.ipynb`](main_notebook.ipynb)`  
 4️⃣ Explore checkpoints (optional)
