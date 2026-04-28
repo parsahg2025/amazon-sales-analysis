@@ -216,7 +216,7 @@ The notebook may also download the dataset from Kaggle if needed.
 
 
 
-⚙️ Key Dependencies
+## ⚙️ Key Dependencies
 
 Python 3.12.13
 
