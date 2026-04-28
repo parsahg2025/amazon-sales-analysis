@@ -12,8 +12,8 @@
 If you're new to this project, follow this simple path:
 
 1️⃣ Watch the short project video  
-2️⃣ Open 👉 [`main_notebook.ipynb`](main_notebook.ipynb)`  
-3️⃣ Use this README to understand the context  
+2️⃣ Use this README to understand the context  
+3️⃣ Then open 👉 [`main_notebook.ipynb`](main_notebook.ipynb)`  
 
 📌 The notebook is the **main deliverable**.  
 Everything here is designed to help you understand it better — not replace it.
