@@ -241,14 +241,15 @@ mlxtend 0.23.4
 ```
 ├── main_notebook.ipynb        
 ├── README.md
-├── License              
+├── License
+├── .gitignore              
 ├── requirements.txt          
 ├── checkpoints/                
 │   ├── checkpoint_1.ipynb        
 │   ├── checkpoint_2.ipynb         
 │   └── preprocessing.ipynb        
 ├── data/                          
-│   ├── instruction.md             
+│   ├── data_description.md             
 │   └── amazon_sales_dataset.csv   
 ```
 
