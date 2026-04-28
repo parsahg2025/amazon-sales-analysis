@@ -14,6 +14,7 @@ If you're new to this project, follow this simple path:
 1️⃣ Watch the short project video  
 2️⃣ Use this README to understand the context  
 3️⃣ Then open 👉 [`main_notebook.ipynb`](main_notebook.ipynb)`  
+4️⃣ Explore checkpoints (optional)
 
 📌 The notebook is the **main deliverable**.  
 Everything here is designed to help you understand it better — not replace it.
@@ -232,6 +233,23 @@ seaborn 0.13.2
 scipy 1.16.3
 
 mlxtend 0.23.4
+
+
+## 📂 Repository Structure
+.
+├── main_notebook.ipynb
+├── README.md
+├── requirements.txt
+├── checkpoints/
+│   ├── checkpoint_1.ipynb
+│   ├── checkpoint_2.ipynb
+│   └── preprocessing.ipynb
+├── data/
+│   ├── instruction.md
+│   └── amazon_sales_dataset.csv
+├── assets/
+│   └── Figures
+
 
 
 📌 Full list in: requirements.txt
