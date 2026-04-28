@@ -49,13 +49,11 @@ This project focuses on two tightly connected questions:
 
 👉 Explored using **association rule mining**
 
----
 
 ### 🔹 RQ2 — **Social Proof: Do products with more reviews sell more?**
 
 👉 Explored using **cross-tabulation and probability analysis**
 
----
 
 📌 These questions are fully explored, visualized, and interpreted in:  
 👉 **`main_notebook.ipynb`**
