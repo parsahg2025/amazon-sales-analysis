@@ -240,7 +240,8 @@ mlxtend 0.23.4
 ## 📂 Repository Structure
 ```
 ├── main_notebook.ipynb        
-├── README.md                 
+├── README.md
+├── License              
 ├── requirements.txt          
 ├── checkpoints/                
 │   ├── checkpoint_1.ipynb        
