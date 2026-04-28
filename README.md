@@ -238,16 +238,27 @@ mlxtend 0.23.4
 ## 📂 Repository Structure
 .
 ├── main_notebook.ipynb
+
 ├── README.md
+
 ├── requirements.txt
+
 ├── checkpoints/
+
 │   ├── checkpoint_1.ipynb
+
 │   ├── checkpoint_2.ipynb
+
 │   └── preprocessing.ipynb
+
 ├── data/
+
 │   ├── instruction.md
+
 │   └── amazon_sales_dataset.csv
+
 ├── assets/
+
 │   └── Figures
 
 
