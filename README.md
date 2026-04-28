@@ -240,20 +240,6 @@ mlxtend 0.23.4
 
 ## 📂 Repository Structure
 ```
-├── main_notebook.ipynb            # Main notebook
-├── README.md                      # This file
-├── requirements.txt               # Python dependencies
-├── checkpoints/                   # Checkpoints folder
-│   ├── checkpoint_1.ipynb         # Checkpoints
-│   ├── checkpoint_2.ipynb         # Checkpoints
-│   └── preprocessing.ipynb        # preprocessing
-├── data/                          # Dataset folder
-│   ├── instruction.md             # Dataset info
-│   └── amazon_sales_dataset.csv   # dataset csv file
-```
-
-## 📂 Repository Structure
-```
 ├── main_notebook.ipynb        
 ├── README.md                 
 ├── requirements.txt          
