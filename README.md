@@ -1,38 +1,241 @@
-# Amazon Sales Analysis: Trend Discovery & Anomaly Detection
+# 🚀 What Drives Online Purchases?
+## A Data Mining Study of Pricing Signals and Social Proof in Amazon Sales
+
+🎥 **Project Video (2 min):** https://youtu.be/85tgdwctryA  
+👉 **Start here:** [`main_notebook.ipynb`](main_notebook.ipynb)
+
+---
+
+## 🧭 Where Should You Start?
+
+If you're new to this project, follow this simple path:
+
+1️⃣ Watch the short project video  
+2️⃣ Open 👉 **`main_notebook.ipynb`**  
+3️⃣ Use this README to understand the context  
+
+📌 The notebook is the **main deliverable**.  
+Everything here is designed to help you understand it better — not replace it.
+
+---
 
 ## 📌 Project Overview
-This project performs an in-depth exploratory and statistical analysis of 50,000 Amazon sales transactions. The goal is to uncover hidden consumer shopping patterns using **Frequent Itemset Mining** and to identify high-value or fraudulent transactions through **Unsupervised Anomaly Detection**. 
 
-By integrating course-standard algorithms with advanced statistical validation (ANOVA and Chi-squared tests), this project provides a data-driven framework for understanding regional market dynamics and operational outliers.
+Online marketplaces rely heavily on visible signals — discounts, ratings, and review counts — to influence purchasing decisions.
 
-## 🛠️ Tech Stack & Methodologies
-- **Data Manipulation**: Python (Pandas, NumPy)
-- **Machine Learning**: Scikit-Learn (Isolation Forest)
-- **Association Rule Mining**: MLxtend (Apriori Algorithm)
-- **Statistical Analysis**: SciPy (ANOVA, Chi-squared Test of Independence)
-- **Visualization**: Matplotlib, Seaborn
+But do these signals actually drive sales?
 
-## 🔍 Key Analytical Components
+This project tests that assumption using data.
 
-### 1. Anomaly Detection (Course Topic)
-Utilizing the **Isolation Forest** algorithm, we isolated outliers that represent transactions with unusual price-to-quantity ratios or extreme revenue values that deviate from standard regional behavior.
+Using a dataset of **50,000 Amazon transactions**, the analysis evaluates whether:
 
-### 2. Frequent Itemset Mining (Course Topic)
-Using the **Apriori** algorithm, we analyzed category co-occurrences. This identifies which product categories are most likely to be purchased together, providing insights for cross-selling strategies.
+- pricing signals (**discounts and ratings**)  
+- social proof (**review count**)  
 
-### 3. Statistical Significance Testing (Beyond-Course)
-To ensure findings are robust, we applied:
-- **ANOVA**: Testing if mean revenue across product categories varies significantly.
-- **Chi-squared Test**: Determining the independence between geographical regions and payment methods.
+are meaningfully associated with **quantity sold**.
 
-## 📊 Dataset Description
-The analysis is based on the [Amazon Sales Dataset](https://www.kaggle.com/datasets/aliiihussain/amazon-sales-dataset). 
-- **Size**: 50,000 rows, 13 features.
-- **Key Features**: `order_id`, `product_category`, `total_revenue`, `customer_region`.
+⚠️ Instead of assuming these signals work, this project **measures their actual impact**.
 
-## 📂 Repository Structure
-```text
-├── notebooks/          # Jupyter notebooks with step-by-step analysis
-│   └── 01_EDA_Amazon_Sales_Analysis.ipynb
-├── README.md           # Project executive summary
-└── .gitignore          # Prevents uploading unnecessary local files
+👉 The full analytical story, including visuals and interpretations, is presented in:  
+**`main_notebook.ipynb`**
+
+---
+
+## ❓ Research Questions
+
+This project focuses on two tightly connected questions:
+
+### 🔹 RQ1 — Pricing Signals
+**Do higher discounts and higher ratings lead to higher sales?**
+
+👉 Explored using **association rule mining**
+
+---
+
+### 🔹 RQ2 — Social Proof
+**Do products with more reviews sell more?**
+
+👉 Explored using **cross-tabulation and probability analysis**
+
+---
+
+📌 These questions are fully explored, visualized, and interpreted in:  
+👉 **`main_notebook.ipynb`**
+
+---
+
+## 📊 Data
+
+- **Dataset:** Amazon Sales Dataset (Kaggle)  
+- **Size:** 50,000 transactions  
+- **Location:** `data/amazon_sales_dataset.csv`
+
+The notebook also includes code to download the dataset directly.
+
+---
+
+### 🧹 Preprocessing (High-Level)
+
+To support pattern analysis:
+
+- Data was validated (missing values, duplicates, invalid ratings)
+- Numerical variables were converted into categories:
+
+| Variable | Categories |
+|---|---|
+| Discount | Low / Mid / High |
+| Rating | Poor / Average / High |
+| Quantity | Single / Multi / Bulk |
+| Reviews | Niche / Steady / Popular |
+
+📌 Full preprocessing details are available in:  
+`checkpoints/preprocessing.ipynb`  
+
+📌 Only the **clean, final version** is used in:  
+👉 **`main_notebook.ipynb`**
+
+---
+
+## 🧠 Analysis Approach
+
+### 🔹 RQ1 — Association Rule Mining
+
+Used the **Apriori algorithm** to find patterns like:
+
+Condition(s) → Outcome
+
+Evaluated using:
+- Support
+- Confidence
+- Lift (key metric)
+
+📌 Interpretation of these rules is provided in:  
+👉 **`main_notebook.ipynb`**
+
+---
+
+### 🔹 RQ2 — Cross-Tabulation
+
+Analyzed:
+
+P(Bulk Purchase | High Reviews)
+
+to understand whether review count affects purchasing behavior.
+
+📌 Category-level comparisons and insights are in:  
+👉 **`main_notebook.ipynb`**
+
+---
+
+## 📈 Key Findings
+
+### 🔹 Pricing Signals
+- Higher discounts ≠ significantly higher sales  
+- Higher ratings ≠ significantly higher sales  
+- Most relationships are **weak (lift ≈ 1)**  
+
+---
+
+### 🔹 Social Proof
+- Products with more reviews do **not** strongly sell more  
+- Bulk purchase probability remains stable (~39%–42%)  
+
+---
+
+## 🎯 Main Takeaway
+
+> **Simple marketplace signals do not strongly explain purchasing behavior.**
+
+This challenges a common assumption in e-commerce.
+
+📌 Full interpretation and discussion are in:  
+👉 **`main_notebook.ipynb`**
+
+---
+
+## 🤔 Why This Matters
+
+Businesses often rely on:
+
+- discounts  
+- ratings  
+- review counts  
+
+But this analysis suggests:
+
+➡️ These signals alone are not enough  
+
+Customer decisions likely depend on:
+
+- pricing strategy  
+- brand reputation  
+- delivery speed  
+- return policy  
+- customer preferences  
+
+---
+
+## ▶️ How to Reproduce
+
+This project was built in **Google Colab** using:
+
+`Python 3.12.13`
+
+The full environment is provided in:
+
+`requirements.txt`
+
+### Step 1: Clone the Repository
+
+```bash
+git clone <[your-repository-url](https://github.com/parsahg2025/amazon-sales-analysis)>
+cd <amazon-sales-analysis>
+```
+
+### Step 2: Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 3: Open the Main Notebook
+
+Open:
+
+`main_notebook.ipynb`
+
+This is the curated final notebook and should be run first.
+
+### Step 4: Run the Notebook
+
+Run all cells in order.
+
+The dataset is included locally in:
+
+`data/amazon_sales_dataset.csv`
+
+The notebook may also download the dataset from Kaggle if needed.
+
+---
+
+
+
+⚙️ Key Dependencies
+
+Python 3.12.13
+
+pandas 2.2.2
+
+numpy 2.0.2
+
+matplotlib 3.10.0
+
+seaborn 0.13.2
+
+scipy 1.16.3
+
+mlxtend 0.23.4
+
+
+📌 Full list in: requirements.txt
+
